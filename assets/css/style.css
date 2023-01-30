@@ -1,1 +1,117 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.box {
+  width: 800px;
+  height: 550px;
+  border: 2px solid black;
+  margin: 80px 400px;
+}
+.box .form {
+  border: 2px solid green;
+  width: 100%;
+  height: 100%;
+}
+.box .form h1 {
+  text-align: center;
+  color: rgb(205, 127, 98);
+  margin: 10px;
+}
+.box .form h2 {
+  background-color: rgb(32, 200, 200);
+  text-align: center;
+  color: white;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box .form .form-name {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  justify-content: center;
+  width: 100%;
+}
+.box .form .form-name .name p {
+  margin: 5px 20px;
+}
+.box .form .form-name .name input {
+  padding: 10px;
+  height: 35px;
+  width: 300px;
+  margin: 5px 60px 5px 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: beige;
+  font-size: medium;
+}
+.box .form .form-name .surname p {
+  margin: 5px 20px 3px 20px;
+}
+.box .form .form-name .surname input {
+  padding: 10px;
+  height: 35px;
+  width: 300px;
+  margin: 5px 40px 5px 0px;
+  border: none;
+  border-radius: 5px;
+  background-color: beige;
+  font-size: medium;
+}
+.box .form .address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box .form .address p {
+  margin: 5px 20px;
+  text-align: left;
+}
+.box .form .address input {
+  padding: 10px;
+  height: 35;
+  width: 600px;
+  margin: 5px 60px 5px 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: beige;
+  font-size: medium;
+}
+.box .form .password {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box .form .password p {
+  margin: 5px 20px 3px 20px;
+  text-align: left;
+}
+.box .form .password input {
+  padding: 10px;
+  height: 35px;
+  width: 600px;
+  margin: 5px 60px 5px 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: beige;
+  font-size: medium;
+}
+.box .form button {
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  width: 100px;
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: larger;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

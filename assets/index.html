@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Form</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <div class="box">
+      <div class="form">
+        <h1>YourCompany</h1>
+        <h2>Credit Card Authorization</h2>
+        <div class="form-name">
+            <div class="name">
+                <p>First Name</p>
+                <input type="text" placeholder="First Name" id="firstname" />
+              </div>
+              <div class="surname">
+                <p>Last Name</p>
+                <input type="text" placeholder="Last Name" id="lastname" />
+              </div>
+        </div>    
+        <div class="address">
+            <p>Email Address</p>
+            <input type="text" name="" id="mail" placeholder="Email Address">
+        </div>
+        <div class="password">
+            <p>Password</p>
+            <input type="password" placeholder="Password" id="password">
+            <input type="password" placeholder="Confirm Password" id="confirm">
+        </div>
+        <span id="error-message"></span>
+        <button id="btn">Submit</button>    
+     
+      </div>
+    </div>
 
- <script src="../assets/js/main.js"></script>   
-</body>
+    <script src="../assets/js/main.js"></script>
+  </body>
 </html>
